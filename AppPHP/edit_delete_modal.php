@@ -55,7 +55,7 @@
             </div>
             <div class="modal-body">	
             	<p class="text-center">¿Estas seguro en borrar los datos de?</p>
-				<h2 class="text-center"><?php echo $row['firstname'].' '.$row['lastname']; ?></h2>
+				<h2 class="text-center"><?php echo $row['nombre'].' '.$row['apellidos']; ?></h2>
 			</div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal"><span class="fa fa-close"></span> Cancelar</button>
